@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+section{
+    border: 1px solid teal;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+label{
+    display: block;
+    padding: 0.5rem 0;
+}
+
