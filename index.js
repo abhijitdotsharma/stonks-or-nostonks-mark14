@@ -29,7 +29,7 @@ function calculateProfitLoss(initial, quantity, current){
         displayOutput(`The profit is ${profit} and the percentage profit is ${profitPercentage}%`);
     }else{
         //no profit no loss
-        displayOutput("HOHOHO");
+        displayOutput("No Profit No loss, Better luck next time.");
     }
 }
 
