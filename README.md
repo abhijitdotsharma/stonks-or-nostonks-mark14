@@ -1,4 +1,4 @@
-# Stonks or not 
+# StonksHuwaKya
 
 A JS based Web Application that calculates the profit/loss of stocks based on the input from the user
 
