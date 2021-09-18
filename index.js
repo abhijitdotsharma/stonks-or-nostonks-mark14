@@ -19,15 +19,20 @@ function displayOutput(message){
 function calculateProfitLoss(initial, quantity, current){
     if(initial > current){
         //loss
-        let loss = (initial - current) * quantity
-        let lossPercentage = (loss/initial) * 100;
+
+        let loss = (initial * quantity) - (final * quantity)
+        let lossPercentage = (loss/(initial*quantity)) * 100;
         displayOutput(`The loss is ${loss} and the percentage loss is ${lossPercentage}%`);
+
     }else if(initial < current){
         //profit
-        let profit = (current - initial) * quantity
-        let profitPercentage = (profit / initial) * 100;
+
+        let profit = (current * quantity) - (initial * quantity)
+        let profitPercentage = (profit / (initial * quantity)) * 100;
         displayOutput(`The profit is ${profit} and the percentage profit is ${profitPercentage}%`);
+
     }else{
+        
         //no profit no loss
         displayOutput("No Profit No loss, Better luck next time.");
     }
